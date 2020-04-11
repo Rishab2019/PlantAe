@@ -549,8 +549,6 @@ header
 }
 @media(max-width:700px){
 .welcome-area {
-  min-height: 800px;
-  background-image: url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_480x800.jpg);
   width: auto ;
   max-width: 100% ;
   height: auto ;	
