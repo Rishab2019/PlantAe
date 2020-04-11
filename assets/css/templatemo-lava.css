@@ -550,9 +550,9 @@ header
 @media(max-width:700px){
 .welcome-area {
   width: auto ;
-  max-width: 100% ;
+  
   background-image: url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_1350x2400.jpg);
-  height: auto ;	
+  	
 }
 }
 
@@ -560,6 +560,7 @@ header
   .logo {
     text-align: center;
     float: none!important;
+    
   }
   .header-area {
     background-color: #f7f7f7;
@@ -649,6 +650,7 @@ header
 @media (min-width: 992px) {
   .header-area .main-nav .nav {
     display: flex !important;
+	  
   }
 }
 
@@ -736,6 +738,7 @@ welcome
    height: auto;
    width: auto ;
    max-width: 100% ;
+   background-image: url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_1350x2400.jpg);
   
   }
   .welcome-area .header-text {       
@@ -752,7 +755,8 @@ welcome
     background-size: contain;
     width: auto ;
     max-width: 100% ;
-    height: auto ;	  
+    height: auto ;
+    background-image: url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_1350x2400.jpg);
 	  
   }
 
