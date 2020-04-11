@@ -754,7 +754,7 @@ welcome
 @media (max-width: 810px) {
   .welcome-area {
     background-size: contain;
-     margin-top: 30%;
+    
   }
 
   .welcome-area .header-text {
