@@ -723,7 +723,7 @@ welcome
 
 @media (max-width: 1320px) {
   .welcome-area .header-text .left-text {
-    margin-top: 50%;
+    margin-top: 30%;
   }
   .welcome-area .header-text {
     width: 50%;
@@ -734,10 +734,6 @@ welcome
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
-	  
-	  
-	  
-	  
   }
   .welcome-area .header-text {       
     width: 92%;
@@ -754,8 +750,6 @@ welcome
     background-image:url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_1440x2560.jpg);	  
 	  
   }
-  
-
   .welcome-area .header-text {
     padding-top: 100%;
     margin-left: 0;
