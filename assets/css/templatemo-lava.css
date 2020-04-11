@@ -720,7 +720,7 @@ welcome
 
 @media (max-width: 1320px) {
   .welcome-area .header-text .left-text {
-    margin-top: 30%;
+    
   }
   .welcome-area .header-text {
     width: 50%;
@@ -735,7 +735,7 @@ welcome
 
 @media (max-width: 1140px) {
   .welcome-area {
-    height: 200px;
+    height: auto;
     	  
 	  
 	  
@@ -747,13 +747,13 @@ welcome
     margin-top: 30%;
   }
   .welcome-area .header-text .left-text {
-    margin-top: 1%;
+    margin-top: 5%;
     transform: none !important;
   }
 }
 @media (max-width: 810px) {
   .welcome-area {
-    background-size: cover;
+    background-size: contain;
      margin-top: 30%;
   }
 
