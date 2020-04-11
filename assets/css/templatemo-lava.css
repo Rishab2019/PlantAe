@@ -714,6 +714,7 @@ welcome
   .welcome-area .header-text {
     width: 70%;
     margin-left: 5%;
+    margin-top: 30%;
   }
 }
 
@@ -724,6 +725,11 @@ welcome
   .welcome-area .header-text {
     width: 50%;
     margin-left: 5%;
+    margin-top: 30%;
+	  
+	  
+	  
+	  
   }
 }
 
@@ -737,7 +743,7 @@ welcome
   }
   .welcome-area .header-text {       
     width: 92%;
-    padding-top: 793px;
+    padding-top: 600px;
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
