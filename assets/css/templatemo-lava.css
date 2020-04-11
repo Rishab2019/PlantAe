@@ -719,7 +719,7 @@ welcome
 
 @media (max-width: 1320px) {
   .welcome-area .header-text .left-text {
-    margin-top: 50%;
+    margin-top: 30%;
   }
   .welcome-area .header-text {
     width: 50%;
