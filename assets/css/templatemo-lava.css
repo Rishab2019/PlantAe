@@ -730,6 +730,10 @@ welcome
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
+    background-image: url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_1440x2560.jpg)!important;	  
+	  
+	  
+	  
   }
   .welcome-area .header-text {       
     width: 92%;
@@ -742,7 +746,7 @@ welcome
 }
 @media (max-width: 810px) {
   .welcome-area {
-    background-size: contain;
+    background-size: cover;
   }
 
   .welcome-area .header-text {
