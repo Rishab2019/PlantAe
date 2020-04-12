@@ -89,13 +89,7 @@ div.specs{
 	
 
 }
-@media screen and (min-width:500px) and (max-width:600px){
- .card-1{
- 	max-width: auto;
- 	height: auto;
- 	margin-left: 150px;
- 	
- }
+
 	
 img.card-img-top1{
 	max-height: 450px!important;
@@ -114,6 +108,10 @@ img.card-img-top1{
  	margin-left: 200px;
  	
  }
+.full-product-description{
+	padding:24px 24px 34px;
+	margin-left:200px;
+}
 
 }
 
