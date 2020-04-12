@@ -1365,7 +1365,7 @@ font-family: 'PT Sans', sans-serif!important;
 
 
 .sticky-top {
-    padding-top: 95px!important;
+    padding-top: 95px;
 }
 #search1{
   padding-left: 130px!important;
