@@ -9,6 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="HomePage.css">
 
     <title>Plantae</title>
 <!--
@@ -34,106 +35,105 @@ https://templatemo.com/tm-540-lava-landing-page
 
 <body>
 
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-<div class="navbar navbar-expand-sm bg-faded navbar-light fixed-top" role="navigation"id="nav1" >
-    <a  size="20px" class="ap"><img src="pic1.jpg" height="90px" width="90px">  PLANTAE</a>
-        <form class="form-inline mt-2 mt-md-0" id="search1">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#"><img src="PlantaeData/PlantLogo.png" height="50px" width="50px"> PlantAe</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
- 				 
-					
-	</a>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  	<div class="navbar-nav ml-auto">
+		    <form class="form-inline my-2 my-lg-0">
+		    	<input id="SearchBar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
+				<button id="SearchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form><!--------------------------------Search Bar and Button -->
+		</div>
 
-	<a href="sign-inpage.html"id="lg">Login  <span class="cart1"><i class="fas fa-sign-in-alt fa-1x"> </i></span> </a>
-    <a id="pg">Cart <span class="cart1"><i class="fas fa-shopping-cart fa-1x" ></i></a></span>
-	<a href="login.html"id="up">Sign-up<span class="cart1"><i class="fas fa-user-plus fa-1x"></i></a></span>
+			 <ul class="navbar-nav ml-auto">
+	      <li class="nav-item ">
+	         <a class="nav-link text-dark" href="#">Login <svg class="bi bi-person-check-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	  			<path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 100-6 3 3 0 000 6zm9.854-2.854a.5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-1.5-1.5a.5.5 0 01.708-.708L12.5 7.793l2.646-2.647a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+				</svg><!--------------------Login Buttonn and Icon   ----------------->
+				</a>
+	      </li>
+	      <li class="nav-item active">
+	        <a class="nav-link text-dark" href="#">Cart <svg class="bi bi-bag-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+ 				 <path d="M1 4h14v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4zm7-2.5A2.5 2.5 0 005.5 4h-1a3.5 3.5 0 117 0h-1A2.5 2.5 0 008 1.5z"/>
+				</svg><!--------------------Cart Buttonn and Icon   ----------------->
+			</a>
+	      </li>
+	    </ul>
 
+				
+		</div>
+	</nav>
 
-   
-</div>
-<div class="sticky-top">
- <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav0">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      
-      <li class="nav-item">
-        <a class="nav-link" href="aboutus.html">About us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" >
-          Plants
-        <ul class="dropdown-menu" aria-labelledby="dropdown1">
-          <a class="dropdown-item" href="page2.HTML">Indoor plants</a>
-          <a class="dropdown-item" href="">Outdoor plants</a>
-          <a class="dropdown-item" href="#">Water plants</a>
-          <a class="dropdown-item" href="#">air plants</a>
-          <a class="dropdown-item" href="#">Spore Bearing Plants</a>
-          <a class="dropdown-item" href="#">Seed Bearing Plants</a>
-          <a class="dropdown-item" href="#">Flowering Plants
-          </a>
-        </ul>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	     <div class="container">
+	      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav mr-auto">
+			    <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          PLANTS
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Indoor Plants </a>
+			          <a class="dropdown-item" href="#"> Air Purifier </a>
+			          <a class="dropdown-item" href="#"> Flowering Plants </a>
+			          <a class="dropdown-item" href="#"> Succulent/Cactus </a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#"> Medicinal Plants </a>
+			        </div>
+			    </li>
+			    <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          SEEDS
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Vegetable Seeds </a>
+			          <a class="dropdown-item" href="#"> Flower Seeds </a>
+			          <a class="dropdown-item" href="#"> Herb Seeds </a>
+			          <a class="dropdown-item" href="#"> Bulbs </a>
+			          <a class="dropdown-item" href="#"> Fruit Seeds </a>
+			          <a class="dropdown-item" href="#"> Lawn Grass </a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#"> TREE SEEDS </a>
+			        </div>
+			    </li>
+			    <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          POTS & PLANTERS 
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Plastic Pots </a>
+			          <a class="dropdown-item" href="#"> Ceramic Pots </a>
+			          <a class="dropdown-item" href="#"> Metallic Pots </a>
+			          <a class="dropdown-item" href="#"> Seedling(s) Tray </a>
+			          <a class="dropdown-item" href="#"> Grow Bags </a>
+			          <a class="dropdown-item" href="#"> Coir Pots </a>
+			          <a class="dropdown-item" href="#"> Bamboo Planter </a>
+			        </div>
+			    </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          TOOLS & ACCESSOIRIES 
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#"> Prunning and Cutting Tools </a>
+			          <a class="dropdown-item" href="#"> Hand Tools </a>
+			          <a class="dropdown-item" href="#"> Digging Tools </a>
+			          <a class="dropdown-item" href="#"> Raking Tools </a>
+			          <a class="dropdown-item" href="#"> Watering Tools </a>
+			          <a class="dropdown-item" href="#"> Spray Pumps </a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#"> LAWN MOWERS </a>
+			        </div>
+			    </li>
 
-      </li>
-      <li class="nav-item dropdown">
-            	 <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Seeds</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                    <li class="dropdown-item" href="#"><a>Vegetable Seeds</a></li>
-                    <li class="dropdown-item" href="#"><a>Flower Seeds</a></li>
-                    <li class="dropdown-item" href="#"><a>Herb Seeds</a></li>
-                    <li class="dropdown-item" href="#"><a>Bulb</a></li>
-                    <li class="dropdown-item" href="#"><a>Fruit Seeds</a></li>
-                    <li class="dropdown-item" href="#"><a>Lawn Grass</a></li>
-                    <li class="dropdown-item" href="#"><a>Tree Seeds</a></li>
-                </ul>
-                
-      </li>
-      <li class="nav-item dropdown">
-            	 <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pots & Planters</a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                    <li class="dropdown-item" href="#"><a>Plastic Pots</a></li>
-                    <li class="dropdown-item" href="#"><a>Ceramic Pots</a></li>
-                    <li class="dropdown-item" href="#"><a>Metallic pots</a></li>
-                    <li class="dropdown-item" href="#"><a>Seedling Tray</a></li>
-                    <li class="dropdown-item" href="#"><a>Grow bags</a></li>
-                    <li class="dropdown-item" href="#"><a>Coir Pots</a></li>
-                    <li class="dropdown-item" href="#"><a>Bamboo Planter</a></li>
-                </ul>
-                
-      </li>
-      <li class="nav-item dropdown">
-            	 <a class="nav-link dropdown-toggle" id="dropdown1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tools & accessories
-            	 </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown1">
-                    <li class="dropdown-item" href="#"><a>Prunning and Cutting Tools </a></li>
-                    <li class="dropdown-item" href="#"><a>Hand Tools</a></li>
-                    <li class="dropdown-item" href="#"><a>Digging Tools</a></li>
-                    <li class="dropdown-item" href="#"><a>Raking Tools</a></li>
-                    <li class="dropdown-item" href="#"><a>Watering Tools</a></li>
-                    <li class="dropdown-item" href="#"><a>Spray Pumps</a></li>
-                    <li class="dropdown-item" href="#"><a>LAWN MOWERS</a></li>
-                </ul>
-                
-      </li>
-
-     
-      
-
-    </ul>
-      </div>
- </nav>
-</div> 
+	    	</ul>
+	       	</div>
+	    </div> 
+	</nav> 
 
 
 
