@@ -111,17 +111,11 @@ div.specs{
  	padding: auto;
  	
  }
- .body{
- 	max-width: auto;
- 	height: auto;
- 	margin: auto;
- 	padding: auto;
 
- }
 
 
 }
-@media(max-width:991px){
+@media screen and (min-width:700px) and (max-width:991px){
 
  .body{
  	max-width: auto;
@@ -132,7 +126,7 @@ div.specs{
 
 
 }
-@media (max-width: 991px) {
+@media screen and (min-wdth:700px) and (max-width: 991px) {
   html, body {
     overflow-x: hidden;
   }
