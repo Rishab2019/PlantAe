@@ -111,10 +111,22 @@ img.card-img-top1{
     margin-left: 150px;
 }
 }	
+
+@media screen and (min-width:600px) and (max-width:768px){
  
+ .card1 {
+    border-color: black;
+    float: left;
+    margin: 2.60rem;
+    padding: 0 auto;
+    padding-top: 50px;
+    margin-left: 220px;
+}
+}	
+
 .full-product-description{
 	padding:24px 24px 34px;
-	margin-left:200px;
+	margin-left:300px;
 }
 
 }
