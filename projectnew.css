@@ -102,7 +102,7 @@ img.card-img-top1{
 
 @media screen and (min-width:500px) and (max-width:600px){
  
- .card-1 {
+ .card1 {
     border-color: black;
     float: left;
     margin: 2.60rem;
