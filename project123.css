@@ -2,6 +2,12 @@ body{
 	background-image: url(http://hdqwalls.com/wallpapers/dark-blur-abstract-4k-v3.jpg);
 	background-size: cover;
 }
+img:hover{
+	 filter: blur(0);
+     transform: scale(1.25);
+	
+}
+
 
 .display-4{
 	color: white;
