@@ -101,12 +101,17 @@ img.card-img-top1{
 }
 
 @media screen and (min-width:500px) and (max-width:600px){
- .card-1{
- 	max-width: auto;
- 	height: auto;
- 	margin-left: 200px;
+ 
+ .card-1 {
+    border-color: black;
+    float: left;
+    margin: 2.60rem;
+    padding: 0 auto;
+    padding-top: 50px;
+    margin-left: 150px;
+}
  	
- }
+ 
 .full-product-description{
 	padding:24px 24px 34px;
 	margin-left:200px;
