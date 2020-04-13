@@ -1,0 +1,108 @@
+
+body{
+    background: url("ProjecData/21.jpg");
+    background-size: auto;
+    background-position: center;
+}
+html{
+    height: 100%;
+}
+#content{
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+}
+h1,h3{
+    color: #27373b;
+      font-family: roboto;
+}
+h1{
+    font-weight: 700;
+    font-size:5em; 
+}
+h3{
+    text-align: center;
+}
+#learn{
+    border-radius: 25px;
+}
+hr{
+    width:400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+#SearchBar, #SearchButton{
+    border-radius: 45px;
+}
+#SearchNavBar{
+    height:=10px;
+}
+#SearchBar{
+    width: 360px !important;
+}
+
+
+#BarSearchBar{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.gallery-wrap .img-big-wrap img {
+    height: 450px;
+    width: auto;
+    display: inline-block;
+    cursor: zoom-in;
+}
+
+
+.gallery-wrap .img-small-wrap .item-gallery {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ddd;
+    margin: 7px 2px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallery-wrap .img-small-wrap { 
+    text-align: center;
+}
+.gallery-wrap .img-small-wrap img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.carousel{
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+}
+.card{
+    background-image: linear-gradient(to bottom,#fafcfb,#f2f7f5,#f2f4f5,#e6f0ec )!important;
+}
+#CardLeft{
+    border-right: auto !important;
+}
+#SpecMenuBar{
+    margin-left:7% !important ;
+}
+#careTable{
+    width: 50%;
+    text-align: justify-all;
+    font-family: Arial;
+}
+.bg-secondary{
+    background-color: #f0f0f0 !important;
+}
+#RatingsImage{
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+.headerChange{
+    text-align: left;
+}
