@@ -15,6 +15,15 @@ body{
 	
 
 }
+.rup{
+	color: orange;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	font-family: 'PT Sans', sans-serif!important;
+	
+	margin-top: 20px;
+
+
+}
 .fab{
 	color: red!important;
 	margin: 0;
@@ -43,10 +52,16 @@ img.card-img-top1{
 	padding-top: 100px;
 
 }
+.card-title12{
+color:cyan!important;
+text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue!important;
+font-family: 'PT Sans', sans-serif!important;
+
+}
 .card1{
 	border-color: black;
 	float: left;
-	margin: 1.66rem;
+	margin: 2.60rem;
 	padding:0 auto;
 }
 .card-body1{
@@ -60,7 +75,7 @@ img.card-img-top1{
 
 }
 .card-title1{
-	color: white;
+	color:cyan;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 	font-family: 'PT Sans', sans-serif!important;
 
