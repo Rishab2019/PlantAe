@@ -1354,10 +1354,7 @@ font-family: 'PT Sans', sans-serif!important;
   font-size: 20px;
   font-family: 'PT Sans', sans-serif!important;
 }
-.navbar{
-  margin-bottom: 0!important;
-  
-}
+
 #nav1{
   background-color: white;
 
@@ -1370,7 +1367,13 @@ font-family: 'PT Sans', sans-serif!important;
   padding-left: 130px!important;
 
 }
-.second-nav{
-  top: 50px;
+
+.navbar.second-navbar {
+  margin-top: 60px;
+  background: grey !important;
+  transition: all .5s ease-in-out;
 }
 
+.navbar.second-navbar.top-nav-collapse {
+  margin-top: 45px;
+}
