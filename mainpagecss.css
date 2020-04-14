@@ -556,7 +556,7 @@ header
   width: 100%;
   height: 100vh;
   min-height: 800px;
-  background-image: url(https://images.wallpaperscraft.com/image/road_marking_evening_clouds_horizon_120298_1350x2400.jpg);
+  background-image: url(https://images.wallpaperscraft.com/image/forest_fog_trees_126479_1440x2560.jpg);
 }
 }
 
@@ -666,7 +666,7 @@ welcome
   width: 100%;
   height: 100vh;
   min-height: 800px;
-  background-image: url(https://images.wallpaperscraft.com/image/road_marking_trees_137674_3840x2400.jpg);
+  background-image: url(https://images.wallpaperscraft.com/image/forest_fog_trees_126479_3840x2400.jpg);
   background-image: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -747,6 +747,8 @@ welcome
 @media (max-width: 1140px) {
   .welcome-area {
     height: auto;
+    background-image: url(https://images.wallpaperscraft.com/image/forest_fog_trees_126479_1440x2560.jpg);
+    width: auto;
   }
   .welcome-area .header-text {       
     width: 92%;
@@ -760,6 +762,7 @@ welcome
 @media (max-width: 810px) {
   .welcome-area {
     background-size: contain;
+    background-image: url(https://images.wallpaperscraft.com/image/forest_fog_trees_126479_1440x2560.jpg);
   }
 
   .welcome-area .header-text {
@@ -1014,7 +1017,7 @@ footer
 footer {
   margin-top: 200px;
   padding-top: 120px;
-  background-image: url(../images/footer-bg.png);
+  background-image: url("footer-bg.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1305,6 +1308,7 @@ font-family: 'PT Sans', sans-serif!important;
 .navbar-brand{
   color: black!important;
   font-family: 'PT Sans', sans-serif!important;
+  font-size:25px;
 }
 
 @media (min-width: 767px) {
@@ -1319,6 +1323,10 @@ font-family: 'PT Sans', sans-serif!important;
         border-left: .3em solid;
     }
 }
+.bg-dark{
+   background-color: #E8E8E8!important;
+}
+
 .ap{
   font-size: 30px;
   color: black;
@@ -1339,8 +1347,10 @@ font-family: 'PT Sans', sans-serif!important;
 
 }
 
+
 #nav0{
   background-color:#E0E0E0!important;
+  margin-top: 95px!important;
 }
 #up{
   color: black;
@@ -1354,9 +1364,18 @@ font-family: 'PT Sans', sans-serif!important;
   font-size: 20px;
   font-family: 'PT Sans', sans-serif!important;
 }
-
+.navbar{
+  margin-bottom: 0!important;
+  
+}
 #nav1{
   background-color: white;
+  
+
+}
+.navbar-collapse{
+  padding:0;
+
 
 }
 
@@ -1364,16 +1383,34 @@ font-family: 'PT Sans', sans-serif!important;
 
 
 #search1{
-  padding-left: 130px!important;
+  padding-left: 100px!important;
 
 }
-
-.navbar.second-navbar {
-  margin-top: 60px;
-  background: grey !important;
-  transition: all .5s ease-in-out;
+.form-inline{
+  padding-left: 120px!important;
+}
+.first-nav{
+    background: white;
+    
 }
 
-.navbar.second-navbar.top-nav-collapse {
-  margin-top: 45px;
+.second-nav{
+    top: 65px;
+    color: white!important;
+}
+#pi{
+  padding-right:130px!important ;
+  font-size: 25px!important;
+}
+#pi2{
+  font-size: 25px!important;
+  padding-right:70px!important ;
+
+
+}
+.navbar-brand1{
+  font-size: 20px;
+  margin-right: 15px!important;
+  color: black;
+  font-family: 'PT Sans', sans-serif!important;
 }
