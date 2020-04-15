@@ -1,0 +1,64 @@
+
+.lalit{
+	
+	justify-content: center;
+	max-height: auto;
+	max-width:  700px;
+	padding-left: 50px;
+
+}
+.display-4{
+	text-align: left;
+	padding-left:50px;
+	padding-bottom: 40px;
+	color:black!important;
+
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.lead{
+ color: #212529!important;
+ font-family: 'Roboto Mono', monospace;
+text-align: left;
+
+
+
+}
+.jumbotron{
+	background:transparent!important;
+}
+#lalit{
+	max-width: 500px;
+}
+body{
+ background-color:#e9ecefc2!important;
+ color: white!important;
+ background-size: cover;
+ background-position: auto;
+}
+.lom{
+	padding-left: 50px;
+	padding-top: 50px;
+
+	
+}
+.card-img{
+	border-color: white!important;
+}
+.card{
+	background-color: white!important;
+	color: black!important;
+	border-color: white!important;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.card-title{
+	color:black!important;
+}
+.card-text{
+	color:black!important;
+}
