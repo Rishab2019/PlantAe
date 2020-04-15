@@ -125,6 +125,9 @@ animation-duration:3s!important;
 .form-control {
     width: 300px!important;
 }
+#SearchBar {
+    width: 300px!important;
+}
 .card1{
 width:22rem!important;
 border-color: black;
