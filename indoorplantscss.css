@@ -1,0 +1,124 @@
+body{
+	background-color:#f8f9fa;
+	background-size: cover;
+}
+
+.display-4{
+	color: black!important;
+	text-align: center;
+
+	text-align: center;
+	
+	font-family: 'PT Sans', sans-serif!important;
+    margin-top: 100px;
+
+	
+
+}
+img.card-img-top1 {
+    max-height: 300px!important;
+    max-width: 300px!important;
+    margin-left: 5px;
+}
+.rup{
+	color:#212529;
+
+	font-family: 'PT Sans', sans-serif!important;
+	
+	margin-top: 20px;
+
+
+}
+.fab{
+	color: red!important;
+	margin: 0;
+
+	padding-left: 710px;
+}
+
+.lead{
+	color: black;
+	text-align: center;
+
+	font-family: 'PT Sans', sans-serif!important;
+
+}
+.lead:hover{
+	color: purple;
+}
+.card-deck{
+	padding-top: 100px;
+}
+img.card-img-top1{
+	max-height: 300px!important;
+	max-width: 300px!important;
+}
+.row{
+	padding-top: 100px;
+
+}
+.card-title12{
+color:#149d64!important;
+font-family: 'PT Sans', sans-serif!important;
+
+}
+.card1{
+	border-color: black;
+	float: left;
+	margin: 2.60rem;
+	padding:0 auto;
+}
+.card-body1{
+	background-color: transparent;
+}
+.card-text1{
+	color: black;
+
+	font-family: 'PT Sans', sans-serif!important;
+
+
+}
+.card-title1{
+	color:#149d64;
+	
+	font-family: 'PT Sans', sans-serif!important;
+
+}
+.card-title12{
+	margin-top: 16px;
+	color: black;
+
+	font-family: 'PT Sans', sans-serif!important;
+
+}
+.animated{
+animation-duration:3s!important;
+
+}
+.love{
+	width: 70%;
+}
+.bd-example{
+	justify-content: center;
+}
+#pi{
+  padding-right:130px!important ;
+  font-size: 25px!important;
+}
+#pi2{
+  font-size: 25px!important;
+  padding-right:70px!important ;
+
+
+}
+.first-nav{
+	background-color: 	#F0F0F0;
+}
+.form-control{
+  width: 600px!important;
+}
+.navbar-brand{
+  color: black!important;
+  font-family: 'PT Sans', sans-serif!important;
+  font-size:25px!important;
+}
