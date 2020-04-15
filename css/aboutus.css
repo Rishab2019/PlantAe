@@ -24,8 +24,34 @@
 text-align: left;
 
 
+}
+
+@media all and (min-width:150px) and (max-width:300px){
+	iframe{
+	width:225px;
+	padding-left:25px;	
+	}
+
 
 }
+
+@media all and (min-width:301px) and (max-width:767px){
+	iframe{
+	width:534px;
+        height: 300px;
+        padding-left: 10px;
+}	
+	}
+
+@media all and (min-width:768px) and (max-width:1102px){
+	iframe{
+	width: 768px;
+        height: 435px;
+    
+}	
+	}
+
+
 .jumbotron{
 	background:transparent!important;
 }
