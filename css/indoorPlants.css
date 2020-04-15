@@ -152,6 +152,39 @@ body::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg,#201c29,#201c29 1px,#100e17 0,#100e17);
 }
 
+#searchbar {
+    display: block;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 7px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.sbutton {
+    background: white;
+    /* border-radius: 10px!important; */
+    /* border: 1px solid #ced4da!important; */
+    width: inherit;
+    margin-left: -30px!important;
+    /* padding-left: 20px!important; */
+    height: 36px;
+    background: #fdfdfd;
+    border: 0;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+    /* border-radius: 0 50px 50px 0; */
+    border-radius: 0px 6px 6px 0px;
+    margin: 2.5px 0px;
+}
+
 .first-nav{
 	background-color: 	#F0F0F0;
 }
