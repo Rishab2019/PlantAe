@@ -116,6 +116,25 @@ animation-duration:3s!important;
 
 
 }
+
+@media sreen and (min-width:578px) and (max-width:1081px){
+#pi {
+    padding-right: 0px!important;
+    font-size: 25px!important;
+}
+.form-control {
+    width: 300px!important;
+}
+.card1{
+width:22rem!important;
+border-color: black;
+float: left;
+margin: 2.60rem;
+
+}
+
+}
+
 .first-nav{
 	background-color: 	#F0F0F0;
 }
