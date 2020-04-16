@@ -51,7 +51,7 @@ text-align: left;
 }	
 	}
 
-@media all and (min-width:1103px) and (max-width:1527px){
+@media all and (min-width:1103px){
 	iframe{
 	width: 1102px;
         height: 600px;
@@ -59,13 +59,7 @@ text-align: left;
 }	
 	}
 
-@media all and (min-width:1528px){
-	iframe{
-	width: 1102px;
-        height: 600px;
-    
-}	
-	}
+
 
 body::-webkit-scrollbar {
     width: 9px;
