@@ -34,7 +34,7 @@ hr{
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 #SearchBar, #SearchButton{
-    border-radius: 45px;
+    border-radius: 7px;
 }
 #SearchNavBar{
     height:=10px;
@@ -73,7 +73,7 @@ hr{
     /* top: 0; */
     /* right: 0; */
     /* border-radius: 0 50px 50px 0; */
-    border-radius: 0px 6px 6px 0px;
+    border-radius: 0px 7px 7px 0px;
     margin: 2.5px 0px;
 }
 
