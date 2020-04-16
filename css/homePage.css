@@ -789,6 +789,7 @@ body::-webkit-scrollbar-track {
 #SearchBar {
     width: 300px!important;
 }
+}
 
 @media (max-width: 1420px) {
   .welcome-area .header-text {
