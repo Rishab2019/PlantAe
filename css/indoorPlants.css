@@ -117,44 +117,53 @@ animation-duration:3s!important;
 
 }
 
-#returntotop{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: rgba(0, 0, 0, 0.7);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    display: none;
+#button {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+      -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+  top:5px;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: 1s;
+    transition: all 0.3s ease;
 }
-#returntotop i{
-    color: #ffffff;
-    margin: 2.5px;
-    position: absolute;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    transition: 0.3s;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    
+#button:hover {
+  cursor: pointer;
+  background-color: #6c757d;
+  transition:all 0.3s;
 }
-#returntotop:hover{
-    background: #6c757d;
+#button:active {
+  background-color: #555;
 }
-#returntotop:hover i{
-    color: #ffffff;
-    top: 0px;
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media all and (min-width:578px) and (max-width:1081px){
