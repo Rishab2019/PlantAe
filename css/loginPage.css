@@ -114,17 +114,23 @@ body {
   background: linear-gradient(to top, #76b852, #8DC26F);
   background-size: cover;
   background-attachment: fixed;
+  background-image: url(https://images.wallpaperscraft.com/image/fern_leaf_plant_green_119970_3840x2400.jpg);
   font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   font-size: 3em;
   text-align: center;
-  color: #fff;
+  color: #beb8e0;
   font-weight: 100;
   text-transform: capitalize;
   letter-spacing: 4px;
   font-family: 'Roboto', sans-serif;
+}
+
+input::-webkit-input-placeholder {
+  color: #4b2354;
+  padding-left:9px;
 }
 
 /*-- main --*/
@@ -135,7 +141,8 @@ h1 {
 .main-agileinfo {
   width: 35%;
   margin: 3em auto;
-  background: rgba(0, 0, 0, 0.18);
+  background: white;
+  border-radius: 10px;
   background-size: cover;
 }
 
@@ -145,21 +152,24 @@ h1 {
 
 input[type="text"], input[type="email"], input[type="password"] {
   font-size: 0.9em;
-  color: #fff;
+  color: #b43333;
+  height:25px;
   font-weight: 100;
+  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
   width: 94.5%;
   display: block;
+  border-radius: 15px;
   border: none;
   padding: 0.8em;
-  border: solid 1px rgba(255, 255, 255, 0.37);
+  /* border: solid 1px grey; */
   -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #fff 4%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%);
+  /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #fff 4%); */
   background-position: -800px 0;
   background-size: 100%;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #f00;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -205,37 +215,43 @@ input.email, input.text.w3lpass {
 
 input[type="submit"] {
   font-size: .9em;
-  color: #fff;
-  background: #76b852;
+  color: white;
+  background-color: #bd59d4;
+  /* background: #76b852; */
   outline: none;
-  border: 1px solid #76b852;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
   cursor: pointer;
   padding: 0.9em;
+  /* border-color: white; */
   -webkit-appearance: none;
   width: 100%;
   margin: 2em 0;
   letter-spacing: 4px;
+  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
 }
 
+
 input[type="submit"]:hover {
-  -webkit-transition: .5s all;
-  -moz-transition: .5s all;
-  -o-transition: .5s all;
-  -ms-transition: .5s all;
-  transition: .5s all;
-  background: #8DC26F;
+   background-color: #4b2354;
+  box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
+  -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
+  -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
+  -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
+  -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.8);
 }
 
 .agileits-top p {
   font-size: 1em;
-  color: #fff;
+  color: #beb8e0;
   text-align: center;
   letter-spacing: 1px;
   font-weight: 300;
 }
 
+
 .agileits-top p a {
-  color: #fff;
+  color: #898989;
   -webkit-transition: .5s all;
   -moz-transition: .5s all;
   transition: .5s all;
@@ -243,18 +259,19 @@ input[type="submit"]:hover {
 }
 
 .agileits-top p a:hover {
-  color: #76b852;
+  color: #4b2354;
 }
 
 /*-- //main --*/
 /*-- checkbox --*/
 .wthree-text label {
   font-size: 0.9em;
-  color: #fff;
+  color: grey;
   font-weight: 200;
   cursor: pointer;
   position: relative;
 }
+
 
 input.checkbox {
   background: #8DC26F;
