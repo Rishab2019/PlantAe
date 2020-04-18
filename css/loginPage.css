@@ -281,7 +281,6 @@ input.checkbox {
 }
 
 input.checkbox:before {
-  content: "";
   position: absolute;
   width: 1.2em;
   height: 1.2em;
