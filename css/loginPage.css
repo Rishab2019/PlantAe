@@ -152,14 +152,14 @@ input::-webkit-input-placeholder {
 
 input[type="text"], input[type="email"], input[type="password"] {
   font-size: 0.9em;
-  color: #b43333;
+  color: #000001;
   height:25px;
   font-weight: 100;
   -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
   width: 94.5%;
   display: block;
   border-radius: 15px;
-  border: none;
+  border: 0.5px solid lightgray;
   padding: 0.8em;
   /* border: solid 1px grey; */
   -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
@@ -169,7 +169,6 @@ input[type="text"], input[type="email"], input[type="password"] {
   background-position: -800px 0;
   background-size: 100%;
   background-repeat: no-repeat;
-  color: #f00;
   font-family: 'Roboto', sans-serif;
 }
 
