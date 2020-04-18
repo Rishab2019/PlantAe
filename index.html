@@ -34,6 +34,7 @@
 
 <body>
  
+  <a id="button"></a>
   <nav class="navbar navbar-expand-sm bg-faded navbar-light sticky-top first-nav">
 	  <a class="navbar-brand" href="#"><img src="PlantaeData/PlantLogo.png" height="60px" width="60px"> PlantAe</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,8 +44,11 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  	<div class="navbar-nav ml-auto">
 		    <form class="form-inline my-2 my-lg-0">
-		    	<input id="SearchBar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
-				<button id="SearchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    	<input id="SearchBar" class="form-control ajax search" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
+                        <button class="sbutton">
+                        <span class="src-t">    </span>
+                        <i class="fa fa-search" aria-hidden="false"></i>
+                        </button>
 			</form><!--------------------------------Search Bar and Button -->
 		</div>
 
@@ -77,7 +81,7 @@
 			          PLANTS
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="indoorplants.HTML"> Indoor Plants </a>
+			          <a class="dropdown-item" href="indoorplants.html"> Indoor Plants </a>
 			          <a class="dropdown-item" href="#"> Air Purifier </a>
 			          <a class="dropdown-item" href="#"> Flowering Plants </a>
 			          <a class="dropdown-item" href="#"> Succulent/Cactus </a>
@@ -439,6 +443,7 @@
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/top1.js"></script>
 </body>
 </html>

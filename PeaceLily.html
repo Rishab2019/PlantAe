@@ -4,23 +4,33 @@
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/ProductPage.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	
 	<title> Peace Lily </title>
 </head>
 <body>
-
+	
+	<div class="topscroll">
+        <a onclick="topFunction()" id="returntotop" style="display: block;"><span><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+        </a>
+        </div>
 	<!---------------------Searchbar This will pe positioned in every page------------------------------------>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="padding-top: 0px; background:linear-gradient(to bottom,#f2f4f5,#e6f0ec);" >
 	  <a class="navbar-brand" href="#"><img src="PlantaeData/PlantLogo.png" height="50px" width="50px"> PlantAe</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
-
+		
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  	<div class="navbar-nav ml-auto">
 		    <form class="form-inline my-2 my-lg-0">
-		    	<input id="SearchBar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
-				<button id="SearchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form><!--------------------------------Search Bar and Button -->
+		    <input id="SearchBar" class="form-control ajax search" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
+                    <button class="sbutton">
+                    <span class="src-t">    </span>
+                    <i class="fa fa-search" aria-hidden="false"></i>
+                    </button>
+	            </form>
+			    <!--------------------------------Search Bar and Button -->
 		</div>
 
 			<ul class="navbar-nav ml-auto">
@@ -409,6 +419,7 @@
 <br><br><br>
 </article>
 
+<script type="text/javascript" src="js/top.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script type="text/javascript" src="assets/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 </body>

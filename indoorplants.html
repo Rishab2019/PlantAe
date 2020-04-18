@@ -4,13 +4,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title></title>
 </head>
 <body>
+	
+<a id="button"></a>
+	
 <nav class="navbar navbar-expand-sm bg-faded navbar-light fixed-top first-nav">
 	  <a class="navbar-brand" href="#"><img src="pic1.jpg" height="60px" width="60px"> PlantAe</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,9 +22,14 @@
 
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  	<div class="navbar-nav ml-auto">
-		    <form class="form-inline my-2 my-lg-0">
-		    	<input id="SearchBar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
-				<button id="SearchButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		   <form class="form-inline my-2 my-lg-0">
+		    	<input id="SearchBar" class="form-control ajax search" type="search" placeholder="Search" aria-label="Search" style="width: 360px;">
+                        <button class="sbutton">
+			<span class="src-t"></span>
+			  <i class="fa fa-search" aria-hidden="false"></i>
+			</button>
+				
+
 			</form><!--------------------------------Search Bar and Button -->
 		</div>
 
@@ -122,8 +130,12 @@
     <a href="http://217.182.199.19/Oceanofgames.com/WWE_2K15.zip?md5=OCV_487F0ynfzK_Jf3HTrQ&expires=1574508329" class="btn btn-primary btn-lg">Buy Now</a>   <a href="" class="btn btn-outline-primary btn-lg"id="hey"margin="3rem"> add to cart </a>
   </div>
 </div>
+	
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/top1.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
