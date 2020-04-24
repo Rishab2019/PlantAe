@@ -77,6 +77,14 @@ hr{
     margin: 2.5px 0px;
 }
 
+.navbar-nav .nav-link {
+    margin-right: 30px;
+    color: black!important;
+    font-family: 'PT Sans', sans-serif!important;
+    margin-left: 0px;
+   
+}
+
 #BarSearchBar{
     padding-left: 10px;
     padding-right: 10px;
