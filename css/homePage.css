@@ -47,6 +47,18 @@ figure, header, nav, section, article, aside, footer, figcaption {
   height: 0;
 }
 
+@media all and (max-width: 1081px) 
+    { 
+.new{
+  width:125px;
+  position:absolute;
+  margin-top:-12.5px;
+
+
+}
+
+    }
+
 .clearfix {
   display: inline-block;
 }
