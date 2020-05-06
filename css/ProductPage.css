@@ -7,6 +7,20 @@ body{
 html{
     height: 100%;
 }
+
+
+@media all and (max-width: 450px) 
+    { 
+.new{
+  width:170px;
+  position:absolute;
+  margin-left:125px;
+  margin-top:-12.5px;
+
+
+}
+
+    }
 #content{
     text-align: center;
     padding-top: 25%;
