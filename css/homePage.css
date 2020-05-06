@@ -59,6 +59,15 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
     }
 
+.new{
+  width:125px;
+  position:absolute;
+  margin-left:175px;
+  margin-top:0px;
+
+
+}
+
 .clearfix {
   display: inline-block;
 }
